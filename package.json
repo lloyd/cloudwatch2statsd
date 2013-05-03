@@ -1,0 +1,35 @@
+{
+  "name": "cloudwatch2statsd",
+  "description": "Pull stats out of cloudwatch.",
+  "homepage": "https://github.com/lloyd/cloudwatch2statsd",
+  "version": "0.0.1",
+  "dependencies": {
+    "JSONSelect": "0.4.0",
+    "awssum": "1.0.0-beta",
+    "awssum-amazon": "1.0.2",
+    "awssum-amazon-cloudwatch": "1.0.0"
+  },
+  "maintainers": [
+    {
+      "name": "Lloyd Hilaiel",
+      "email": "lloyd@hilaiel.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/lloyd/cloudwatch2statsd"
+  },
+  "licenses": [
+    {
+      "type": "WTFPL"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/lloyd/cloudwatch2statsd.git"
+    }
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
