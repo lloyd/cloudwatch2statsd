@@ -1,0 +1,34 @@
+{
+    "run_list": [
+        "recipe[access]"
+    ],
+    "stack": {
+        "environment": "identity-dev",
+        "load_balancers": {
+            "bt-login-anosrep-org": {
+                "dns_name": "bt-login-anosrep-org-0430-2109570147.us-west-2.elb.amazonaws.com"
+            },
+            "dbwrite": {
+                "dns_name": "internal-dbwrite-0430-1033519085.us-west-2.elb.amazonaws.com"
+            },
+            "diresworb-org": {
+                "dns_name": "diresworb-org-0430-2145154904.us-west-2.elb.amazonaws.com"
+            },
+            "keysign": {
+                "dns_name": "internal-keysign-0430-1092484187.us-west-2.elb.amazonaws.com"
+            },
+            "proxy": {
+                "dns_name": "internal-proxy-0430-710253121.us-west-2.elb.amazonaws.com"
+            },
+            "w-anosrep-org": {
+                "dns_name": "w-anosrep-org-0430-520643386.us-west-2.elb.amazonaws.com"
+            },
+            "w-login-anosrep-org": {
+                "dns_name": "w-login-anosrep-org-0430-1837518429.us-west-2.elb.amazonaws.com"
+            }
+        },
+        "name": "0430",
+        "type": "stage"
+    },
+    "tier": "admin"
+}
